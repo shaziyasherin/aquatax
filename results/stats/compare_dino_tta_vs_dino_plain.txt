@@ -1,0 +1,9 @@
+
+Paired bootstrap (A = results\preds\dino_tta_test.json, B = results\preds\dino_plain_test.json), B=1000
+metric         A-B          95% CI of diff   P(diff<=0)
+mAP50        0.048     [-0.023, 0.117]      0.113
+mAP          0.007     [-0.022, 0.056]      0.310
+plastic      0.001     [-0.013, 0.015]      0.489
+paper        0.011     [-0.067, 0.097]      0.417
+metal       -0.088     [-0.172, -0.013]      0.996
+glass        0.269     [0.000, 0.500]      0.047

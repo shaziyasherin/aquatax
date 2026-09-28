@@ -1,0 +1,1 @@
+{"coco/plastic_precision": 0.474, "coco/paper_precision": 0.223, "coco/metal_precision": 0.262, "coco/glass_precision": 0.144, "coco/bbox_mAP": 0.275, "coco/bbox_mAP_50": 0.536, "coco/bbox_mAP_75": 0.235, "coco/bbox_mAP_s": 0.376, "coco/bbox_mAP_m": 0.324, "coco/bbox_mAP_l": 0.301, "data_time": 0.011459356714949817, "time": 0.24439082170206966}

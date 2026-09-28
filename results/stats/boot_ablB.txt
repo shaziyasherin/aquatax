@@ -1,0 +1,11 @@
+
+Image-level bootstrap, B=1000, seed=20260729, n_images=389, subset=full
+metric       point                95% CI   valid draws
+mAP50        0.538   [0.445, 0.690]        1000/1000
+mAP          0.274   [0.210, 0.394]        1000/1000
+plastic      0.897   [0.875, 0.920]        1000/1000
+paper        0.433   [0.251, 0.666]        1000/1000
+metal        0.468   [0.245, 0.725]        1000/1000
+glass        0.354   [0.068, 0.803]         994/1000
+
+A class whose 'valid draws' < B had zero GT boxes in some resamples; report its CI with that caveat (expected for glass, n=7).

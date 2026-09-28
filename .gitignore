@@ -1,0 +1,14 @@
+# Images and checkpoints are never committed: images are not redistributable,
+# checkpoints live in the Zenodo record.
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.pth
+*.pt
+*.ckpt
+rebuilt/
+work_dirs/
+__pycache__/
+*.pyc

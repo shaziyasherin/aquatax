@@ -1,0 +1,18 @@
+A = configs\dino_ablation_B.py
+B = configs\dino_ablation_A.py
+653 leaf values in A, 654 in B, 4 differ
+
+imagenet22k
+    A: <absent>
+    B: 'D:/aquavisionnet/swin_base_patch4_window12_384_22k.pth'
+model.backbone.convert_weights
+    A: False
+    B: True
+model.backbone.init_cfg.checkpoint
+    A: 'D:/aquavisionnet/swin_b_o365_backbone_only.pth'
+    B: 'D:/aquavisionnet/swin_base_patch4_window12_384_22k.pth'
+work_dir
+    A: 'D:/aquavisionnet/revision/work_dirs/ablB'
+    B: 'D:/aquavisionnet/revision/work_dirs/ablA'
+
+For a controlled ablation row, every line above must be one you intended.

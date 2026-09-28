@@ -1,0 +1,6 @@
+{
+ "model": "yolov8m",
+ "images_per_s_batch1": 62.19,
+ "n_timed": 379,
+ "imgsz": 512
+}

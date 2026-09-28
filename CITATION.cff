@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use AquaTax-4 or this code, please cite it as below, and cite the three source datasets."
+title: "AquaTax-4: manifest, rebuild script, annotations and leakage-audit code"
+version: 1.0.0
+doi: "10.5281/zenodo.23023328"
+repository-code: "https://github.com/shaziyasherin/aquatax"
+license: MIT
+authors:
+  - family-names: "Banu S"
+    given-names: "Shaziya"
+    affiliation: "BMS College of Engineering, Bengaluru, India"
+  - family-names: "G. B."
+    given-names: "Pallavi"
+    affiliation: "BMS College of Engineering, Bengaluru, India"
+keywords:
+  - floating macro-debris
+  - object detection
+  - benchmark
+  - train-test leakage
+  - freshwater monitoring
+references:
+  - type: article
+    title: "AquaVision: Automating the detection of waste in water bodies using deep transfer learning"
+    doi: "10.1016/j.cscee.2020.100026"
+    authors:
+      - family-names: Panwar
+        given-names: H.
+  - type: conference-paper
+    title: "FloW: A dataset and benchmark for floating waste detection in inland waters"
+    doi: "10.1109/ICCV48922.2021.01077"
+    authors:
+      - family-names: Cheng
+        given-names: Y.
+  - type: dataset
+    title: "AquaSurf-Malnad-223: A vegetation-stratified benchmark for false-positive analysis in freshwater debris detection"
+    doi: "10.5281/zenodo.22945111"
+    authors:
+      - family-names: "Banu S"
+        given-names: "Shaziya"
+      - family-names: "G. B."
+        given-names: "Pallavi"

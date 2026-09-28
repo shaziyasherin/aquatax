@@ -1,0 +1,9 @@
+{
+ "convention": "c0",
+ "voc_names": [
+  "bottle"
+ ],
+ "maps_to": "plastic",
+ "images_reproduced": 2000,
+ "images_tested": 2000
+}

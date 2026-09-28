@@ -1,0 +1,9 @@
+
+Paired bootstrap (A = results\preds\yolov8m_test.json, B = results\preds\avn15_test.json), B=1000
+metric         A-B          95% CI of diff   P(diff<=0)
+mAP50        0.019     [-0.057, 0.070]      0.382
+mAP          0.018     [-0.018, 0.044]      0.165
+plastic      0.180     [0.147, 0.209]      0.000
+paper       -0.025     [-0.177, 0.125]      0.685
+metal       -0.066     [-0.324, 0.134]      0.814
+glass       -0.012     [-0.040, -0.001]      1.000

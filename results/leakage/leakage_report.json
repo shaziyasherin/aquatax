@@ -1,0 +1,126 @@
+{
+ "thresholds": [
+  0,
+  2,
+  5,
+  8,
+  10
+ ],
+ "paper_threshold": 5,
+ "sweep": {
+  "0": {
+   "test_vs_train": 2,
+   "test_vs_val": 0,
+   "test_union": 2,
+   "test_pct": 0.51,
+   "val_vs_train": 4,
+   "n_test": 389,
+   "n_val": 389,
+   "clean_n": 387
+  },
+  "2": {
+   "test_vs_train": 12,
+   "test_vs_val": 8,
+   "test_union": 20,
+   "test_pct": 5.14,
+   "val_vs_train": 11,
+   "n_test": 389,
+   "n_val": 389,
+   "clean_n": 369
+  },
+  "5": {
+   "test_vs_train": 37,
+   "test_vs_val": 13,
+   "test_union": 45,
+   "test_pct": 11.57,
+   "val_vs_train": 29,
+   "n_test": 389,
+   "n_val": 389,
+   "clean_n": 344
+  },
+  "8": {
+   "test_vs_train": 96,
+   "test_vs_val": 35,
+   "test_union": 108,
+   "test_pct": 27.76,
+   "val_vs_train": 70,
+   "n_test": 389,
+   "n_val": 389,
+   "clean_n": 281
+  },
+  "10": {
+   "test_vs_train": 133,
+   "test_vs_val": 54,
+   "test_union": 148,
+   "test_pct": 38.05,
+   "val_vs_train": 100,
+   "n_test": 389,
+   "n_val": 389,
+   "clean_n": 241
+  }
+ },
+ "attribution_at_paper_threshold": {
+  "AquaSurf-Malnad-223": {
+   "flagged": 5,
+   "total": 33,
+   "rate_pct": 15.2
+  },
+  "AquaTrash": {
+   "flagged": 0,
+   "total": 48,
+   "rate_pct": 0.0
+  },
+  "FloW-Img": {
+   "flagged": 40,
+   "total": 308,
+   "rate_pct": 13.0
+  }
+ },
+ "exact_cross_split_duplicates": 1,
+ "n_train": 1814,
+ "n_val": 389,
+ "n_test": 389,
+ "distance_histogram": {
+  "test_vs_train": {
+   "0": 2,
+   "2": 10,
+   "4": 25,
+   "6": 28,
+   "8": 31,
+   "10": 37,
+   "12": 35,
+   "14": 39,
+   "16": 86,
+   "18": 77,
+   "20": 19
+  },
+  "test_vs_val": {
+   "2": 8,
+   "4": 5,
+   "6": 9,
+   "8": 13,
+   "10": 19,
+   "12": 22,
+   "14": 35,
+   "16": 33,
+   "18": 104,
+   "20": 121,
+   "22": 19,
+   "24": 1
+  },
+  "val_vs_train": {
+   "0": 4,
+   "2": 7,
+   "4": 18,
+   "6": 25,
+   "8": 16,
+   "10": 30,
+   "12": 45,
+   "14": 44,
+   "16": 73,
+   "18": 88,
+   "20": 37,
+   "22": 2
+  }
+ }
+}

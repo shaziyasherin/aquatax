@@ -1,0 +1,10 @@
+{
+ "model": "frcnn",
+ "split": "test",
+ "images_per_s_batch1": 38.48,
+ "ms_per_image": 25.99,
+ "n_timed": 379,
+ "size": 512,
+ "device": "cuda",
+ "note": "image decode + letterbox + normalise + forward + decode/NMS, batch 1"
+}

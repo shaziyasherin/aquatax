@@ -1,0 +1,9 @@
+
+Paired bootstrap (A = results\preds\ablB_test.json, B = results\preds\ablA_test.json), B=1000
+metric         A-B          95% CI of diff   P(diff<=0)
+mAP50        0.002     [-0.085, 0.110]      0.428
+mAP         -0.002     [-0.066, 0.078]      0.506
+plastic      0.003     [-0.009, 0.017]      0.274
+paper       -0.050     [-0.223, 0.158]      0.631
+metal       -0.070     [-0.231, 0.108]      0.784
+glass        0.125     [-0.103, 0.448]      0.189

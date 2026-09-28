@@ -1,0 +1,11 @@
+operating threshold chosen on VAL by min per-image count MAE: 0.65
+
+Test split, score >= 0.65
+per-image total-count MAE = 0.458 items; mean signed bias = -0.185 items/image
+class       GT total  pred total   ratio
+plastic          835         777    0.93
+paper             19          16    0.84
+metal             18          11    0.61
+glass              6           2    0.33
+
+ratio < 1 = systematic undercount (missed detections dominate); > 1 = overcount (false positives dominate).

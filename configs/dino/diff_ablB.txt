@@ -1,0 +1,18 @@
+A = D:\aquavisionnet\dino_swinb_aquavision_v2.py
+B = configs\dino_ablation_B.py
+655 leaf values in A, 653 in B, 4 differ
+
+train_dataloader._wrappers_removed_for_diff[0].oversample_thr
+    A: 0.001
+    B: <absent>
+train_dataloader._wrappers_removed_for_diff[0].type
+    A: 'ClassBalancedDataset'
+    B: <absent>
+train_dataloader.dataset.ann_file
+    A: 'annotations/train_copypaste.json'
+    B: 'annotations/train.json'
+work_dir
+    A: 'D:/aquavisionnet/avn_out/dino_swinb_v2'
+    B: 'D:/aquavisionnet/revision/work_dirs/ablB'
+
+For a controlled ablation row, every line above must be one you intended.
