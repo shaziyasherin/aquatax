@@ -6,7 +6,7 @@ Benchmark manifest, rebuild script, annotations, leakage-audit and evaluation co
 > Monitoring: A Leakage-Audited Multi-Source Benchmark and a Controlled Study of Detection
 > Pretraining.* Journal of Hazardous Materials Advances (under review, manuscript HAZADV-D-26-02212).
 
-Archived release: **DOI 10.5281/zenodo.23023328**.
+Archived release: **DOI [ZENODO-DOI]**.
 
 AquaTax-4 pools 2,592 images and 5,825 bounding boxes in four material classes (plastic 5,538,
 paper 123, metal 118, glass 46) from three sources, split 70/15/15 into 1,814 / 389 / 389 images
@@ -32,9 +32,10 @@ sources, and to check every number in the paper:
 | `results/preds/`, `results/stats/`, `results/leakage/` | per-image predictions of all five detectors, bootstrap outputs, and the pHash audit |
 
 **Available from the corresponding author on reasonable request:** the trained checkpoints, the
-AquaVisionNet implementation, the whale-optimisation hyperparameter search, and the SAM-assisted
-copy-paste script. The copy-paste procedure is described step by step in the paper's Supplementary
-Material S1, and the search in S2.
+AquaVisionNet implementation and the SAM-assisted copy-paste script. The copy-paste procedure is
+described step by step in the paper's Supplementary Material S1. The hyperparameter search belongs to
+separate work; every value it selected is listed in Supplementary Material S2, so the reported runs
+can be reproduced without it.
 
 ## Rebuild the corpus
 
@@ -116,3 +117,4 @@ need only Python, NumPy and pycocotools.
 ## Citation
 
 See `CITATION.cff`. Please also cite the three source datasets.
+
