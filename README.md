@@ -6,7 +6,7 @@ Benchmark manifest, rebuild script, annotations, leakage-audit and evaluation co
 > Monitoring: A Leakage-Audited Multi-Source Benchmark and a Controlled Study of Detection
 > Pretraining.* Journal of Hazardous Materials Advances (under review, manuscript HAZADV-D-26-02212).
 
-Archived release: **DOI [ZENODO-DOI]**.
+Archived release: **DOI [https://doi.org/10.5281/zenodo.23023328]**.
 
 AquaTax-4 pools 2,592 images and 5,825 bounding boxes in four material classes (plastic 5,538,
 paper 123, metal 118, glass 46) from three sources, split 70/15/15 into 1,814 / 389 / 389 images
